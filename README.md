@@ -147,7 +147,7 @@ npx stylelint "**/*.{css,scss}"
 
 - Project Demo: [Project Demo](https://metrics-8e7g.onrender.com/)
 
-- Project Presentation: [ProjectPresentation]()
+- Project Presentation: [ProjectPresentation](https://www.loom.com/share/bf2e2616af3c4547af0b12303e332e39?sid=53ef421e-a178-407e-beab-dcd0c3371d85)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
