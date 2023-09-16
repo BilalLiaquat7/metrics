@@ -136,7 +136,7 @@ npx stylelint "**/*.{css,scss}"
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Shah Zaman**
+👤 **Muhammad Bilal Liaquat**
 
 - GitHub: [@githubhandle](https://github.com/BilalLiaquat7/)
 - LinkedIn: [@Linkedin](https://www.linkedin.com/in/muhammad-bilal-liaquat-87863390/)
@@ -147,7 +147,7 @@ npx stylelint "**/*.{css,scss}"
 
 - Project Demo: [Project Demo](https://metrics-8e7g.onrender.com/)
 
-- Project Presentation: [ProjectPresentation](https://www.loom.com/share/bf2e2616af3c4547af0b12303e332e39?sid=53ef421e-a178-407e-beab-dcd0c3371d85)
+- Project Presentation: [ProjectPresentation](https://www.loom.com/share/9a768935d66844f890b783f48feb7051?sid=ac148937-05ab-4894-8f55-058a6f05afff)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
