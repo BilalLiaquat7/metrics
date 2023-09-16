@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App flex flex-col">
       <Routes>
-        <Route element={<WeatherMain />} />
+        <Route path="/" element={<WeatherMain />} />
         <Route path="/city/:cityName" element={<WeatherDetail />} />
       </Routes>
     </div>
