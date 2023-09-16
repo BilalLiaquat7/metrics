@@ -4,7 +4,6 @@ const countries = [
   'Pakistan',
   'Afghanistan',
   'China',
-  'India',
   'Iran',
   'Nepal',
   'Tajikistan',
@@ -54,8 +53,9 @@ const detailWeatherSlice = createSlice({
 export const selectedWeatherData = (state) => state.weather.weather;
 export const selectWeatherStatus = (state) => state.weather.status;
 
-export const selectedCountry = (state, country) => {
-  state.weather.weather.find((city) => city.name === country);
+export const selectedCountry = (state, countryName) => {
+  const countriess = state.weather.weather;
+  return countriess.find((country) => country.name === countryName);
 };
 
 export default detailWeatherSlice.reducer;

@@ -131,3 +131,70 @@ input {
   font-size: x-large;
   color: black;
 }
+
+.countryDetailMain {
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.topSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(222, 41, 120);
+  padding: 1rem;
+}
+
+.link {
+  display: flex;
+  flex: 1 1 0%;
+}
+
+.nameSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: rgb(237, 73, 159);
+}
+
+.nameFont {
+  font-size: 1.9rem;
+  line-height: 2.25rem;
+  color: white;
+}
+
+.city {
+  background-color: rgb(222, 41, 120);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-transform: uppercase;
+}
+
+.cells {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  background-color: rgb(236, 72, 155);
+}
+
+.cellsEven {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  background-color: rgb(222, 41, 120);
+}
+
+.wind {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  justify-content: space-between;
+}

@@ -5,7 +5,6 @@ import { fetchWeatherData } from '../redux/weatherSlice';
 
 import afghanistan from '../assets/afghanistan.png';
 import china from '../assets/china.png';
-import india from '../assets/india.png';
 import iran from '../assets/iran.png';
 import nepal from '../assets/nepal.png';
 import pakistan from '../assets/pakistan.png';
@@ -20,7 +19,6 @@ const WeatherMain = () => {
   const countryImages = {
     Afghanistan: afghanistan,
     China: china,
-    Innichen: india,
     Iran: iran,
     Nepal: nepal,
     Pakistan: pakistan,
