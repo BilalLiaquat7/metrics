@@ -18,14 +18,14 @@ export const fetchWeatherData = createAsyncThunk(
           `https://api.openweathermap.org/data/2.5/weather?q=${country}&appid=5396f1377fe498127f743f6cefbc25d0&units=metric`,
         );
         if (!resp.ok) {
-          throw new Error('Network Error');
+          throw new Error('Error Occurs');
         }
         const data = await resp.json();
         return data;
       });
       return Promise.all(promises);
     } catch (error) {
-      throw new Error('Failed to fetch data');
+      throw new Error('Failed to fetch data from server');
     }
   },
 );
@@ -40,18 +40,15 @@ const detailWeatherSlice = createSlice({
   extraReducers(builder) {
     builder
       .addCase(fetchWeatherData.fulfilled, (state, action) => {
-        state.status = 'Date Loeaded';
+        state.status = 'Data loaded';
         state.weather = action.payload;
       })
       .addCase(fetchWeatherData.pending, (state, action) => {
-        state.status = 'data not loaded';
+        state.status = 'data not found';
         state.status = action.payload;
       });
   },
 });
-
-export const selectedWeatherData = (state) => state.weather.weather;
-export const selectWeatherStatus = (state) => state.weather.status;
 
 export const selectedCountry = (state, countryName) => {
   const countriess = state.weather.weather;

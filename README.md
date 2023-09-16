@@ -145,7 +145,7 @@ npx stylelint "**/*.{css,scss}"
 
 ## 🎥 Project Presentation
 
-- Project Demo: [Project Demo](https://weather-app-wd6h.onrender.com/)
+- Project Demo: [Project Demo](https://metrics-8e7g.onrender.com/)
 
 - Project Presentation: [ProjectPresentation]()
 
