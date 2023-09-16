@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherDetail Component renders component with invalid country data 1`] = `
+<div>
+  <div
+    class="countryDetailMain"
+  />
+</div>
+`;
+
+exports[`WeatherDetail Component renders component with valid country data 1`] = `
+<div>
+  <div
+    class="countryDetailMain"
+  />
+</div>
+`;
